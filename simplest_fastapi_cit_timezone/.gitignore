@@ -1,0 +1,9 @@
+# Pycharm
+.idea/
+
+# Environments
+env/
+venv/
+
+# temp files created
+cityapi/__pycache__/
