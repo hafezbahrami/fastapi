@@ -1,9 +1,8 @@
-# reference: https://www.youtube.com/watch?v=kCggyi_7pHg&t=804s
 from fastapi import FastAPI
 from pydantic import BaseModel
 import requests
 
-# the first thin is to create a model for our datastructure, that can be handleled by FastAPI converted
+# the first thing is to create a model for our data-structure, that can be handleled by FastAPI converted
 # to JSON. We use pydantic (typing)
 class City(BaseModel):
     name: str
@@ -23,7 +22,7 @@ db=[]
 
 @app.get(path="/")
 def index():
-    return {"key": "value"}
+    return {"key": "value: just check at the start if the WebApp works fine"}
 
 @app.get("/cities")
 def get_cities(): #we simply go to in memory database and return all cities in db

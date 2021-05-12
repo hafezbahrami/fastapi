@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+gunicorn
+databases[postgresql]
+psycopg2
