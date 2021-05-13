@@ -1,5 +1,3 @@
-# Main reference
-https://www.youtube.com/watch?v=YUuuJPokBf4
 
 # 1 Databse
 Here we want to use PostgreSQL as our Sequel databse to store data.
@@ -148,3 +146,7 @@ we will create the "notes" table in the PostgreSQL, once the code-interpretato r
 meta_data.create_all(engine)
 ```
 To check if the table is created after this line, we need to refresh the Table section of the database named "fastapi" in the PostgreSQL.
+
+
+# Main reference
+https://www.youtube.com/watch?v=YUuuJPokBf4

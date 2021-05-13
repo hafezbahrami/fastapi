@@ -1,5 +1,4 @@
-# Main reference
-https://www.youtube.com/watch?v=kCggyi_7pHg&t=804s
+
 
 # Databse
 Here we use in-memory database, meaning by the time we shut down the server / container, we will loose all data
@@ -36,5 +35,6 @@ After entering the data in Swagger, try to see if you get 200 reponse code (for 
 After posting, we can "get" the data from our in-memory database:
 
 
-
+# Main reference
+https://www.youtube.com/watch?v=kCggyi_7pHg&t=804s
 
