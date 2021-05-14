@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+gunicorn
+databases[postgresql]
+psycopg2
+passlib
+bcrypt
